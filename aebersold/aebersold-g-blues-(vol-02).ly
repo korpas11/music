@@ -35,34 +35,34 @@ melody = \fixed c,
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   % CHORUS 1
   %1
-  g,4 gis, a,\4 b,
-  c8-. c ais,4 a,\4 gis,
-  g, d\3 f fis
+  g,4 gis, a, b,
+  c8-. c ais,4 a, gis,
+  g, d f fis
   g\2 ais16( b8.) ais16( b8.) g8\2 d\3
   \break
   %5
   c8-. c e,4 a, g,8 b,
   c4 ais, a, gis,
-  g, b, d\3 a
-  g\2 a ais b8 a8
+  g, b, d a
+  g a ais b8 a8
   \break
   %9
   d4 cis' d' a8-.\2 d'
-  c'8 d dis'16( e'8.) c'4 c'8 d
-  g4\2 e16( f8.) e4 dis\3
-  d\3 e f fis
+  c'8\2 d dis'16( e'8.) c'4\2 c'8\2 d
+  g4 e16( f8.) e4 dis
+  d e f fis
   \bar "||"
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   % CHORUS 2
   \break
   %13
-  \tuplet 3/2 { g8 f\2 d } g,4 d\3 cis
+  \tuplet 3/2 { g8\2 f d\3 } g,4 d\3 cis
   c8-. a, ais,4 a,4 gis,
-  g, b, d\3 a
-  g\2 a ais b8 g8
+  g, b, d a
+  g a ais b8 g8
   \break
   %17
-  c'8-.\2 c'8\2 e'4 f' fis'
+  c'8-. c'8 e'4 f' fis'
   g' fis' a' gis'
   g'8-. g'( f'4) e' dis'
   d' cis' c' cis'
@@ -85,7 +85,7 @@ melody = \fixed c,
   %29
   c8 e,4. f,4 fis,
   g, gis, a, fis,
-  g, b, d\3 a
+  g, b, d a
   g a ais b
   \break
   %33
@@ -100,18 +100,18 @@ melody = \fixed c,
   %37
   g,4 b, d a16( g8.)
   c4 e, a, gis,
-  g, b, d\3 a
+  g, b, d a
   g a ais b
   \break
   %41
-  c b bes a
+  c' b bes a
   g fis f fis
   g8\2 d\3 g,4 d\3 g\2
   b bes b g\2
   \break
   %45
-  d' gis8\2( a\2) d4\3  d'
-  c'8 \deadNote c' g\2 \deadNote g\2 e'8 c'4 g8\2
+  d' gis16\2( a8.\2) d4\3  d'
+  c'8 d g\2 d e'8 c'4 g8\2
   g4 f' e' es'
   d' d\3 \tuplet 3/2 { d8 e' f' } fis'8 d
   \bar "||"
@@ -122,7 +122,7 @@ melody = \fixed c,
   g8 d \tuplet 3/2 { g'8\2 a' ais' } \tuplet 3/2 {b'8 g'\2 d} \tuplet 3/2 {b,8 g, b,}
   c4 e, f, fis,
   g, b, c cis
-  d\3 fis g8\2 cis8 cis4
+  d fis g8\2 cis8 cis4
   \break
   %53
   c8 c e,4 a, g,8 b,
@@ -131,7 +131,7 @@ melody = \fixed c,
   g4\2 ais16( b8.) ais16( b8.) a8 d(
   \break
   %57
-  d4\3) cis' d' a8\2 d'
+  d4) cis' d' a8\2 d'
   c'4 e' c' c'8 d\3
   g8\2 d\3 g,4 b, e
   d e f fis
@@ -142,18 +142,18 @@ melody = \fixed c,
   %61
   g8\2 d\3 f d\3 f g\2 cis g\2
   c e, e,4 a,8\4 e, g,4(
-  g,) d\3 f fis
+  g,) d f fis
   g\2 ais b g8\2 b
   \break
   %65
   c'8 g d' \deadNote g c'4 g8\2 d'
   c'4 bes a as
-  g\2 b, a,\4 as,\4
-  g, b, d\3 e
+  g8\2 d b,4 a, as,\4
+  g, b, d e
   \break
   %69
-  d\3 e'8 f' fis' e' d'\2 cis'\2
-  c'4\2 g\3 a\2 as\2
+  d e'8 f' fis' e' d'\2 cis'\2
+  c'4\2 g\2 a\2 as\2
   g a ais b
   c' cis' d' e'
   \bar "||"
