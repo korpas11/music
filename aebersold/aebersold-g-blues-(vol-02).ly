@@ -3,7 +3,7 @@
 \header {
   title = "Slow blues in G"
   subtitle = "Nothin' but blues, Track 9"
-  composer = "Rufus Reid (bass)"
+  composer = "Aebersold / Rufus Reid (bass)"
 }
 
 \paper {
