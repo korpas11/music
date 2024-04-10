@@ -57,20 +57,17 @@ melody = \absolute
                   g,16\2 d,16\3 g,16\2 d,16\3 f,8 e, d,\3 cis,
   
   %17
-  | c,-.4 e,,8 f,,16 fis,, g,,8 ais,, c,4 c,8 ais,, a,, g,,
+  | c,4 e,,8 f,,16 fis,, g,,8 ais,, c,4 c,8 ais,, a,, g,,
   | c,4 e,,8 [ f,,16 fis,, g,,8 ais,, ]
                   c,8 [ c,8 c,8 ] ais,,16 g,, e,,8 f,,              \break          
   | g,, [g,, g,,] g,,[ g,, gis,,] a,,\4 [ a,,\4 a,,\4 ] a,,\4 a,,\4 ais,,\4  
-
-
-  | c,4. ais,,8 a,, g,, c,4. e,,8 f,, g,, c,4.
-  | ais,,8 a,, g,, c,4. e,,8 f,, fis,,                              \break
-  | g,,4. ~g,,8 g,,8 gis,, a,,4.\4 ~a,,8 a,,\4 ais,,\4
-  
-  
-  | b,,4.\4 ~b,,4\4 b,,8\4 ais,,4.\4  ~ais,,4\4 cis,8
+  | b,,\4 b,,\4 b,,\4 dis,\3 e,\3 fis,\3
+          ais,,8\4 ais,16\2 ais,16\2 ais,16\2 ais,16\2 ais,8\2 g,\2 f,\2
   %21
-  | d,2.\3 a,,2\4 cis,8\3 d,8\3                                     \break
+  | d,4.\3 a,,\4 d,\3 a,\2                                          \break
+  | dis,8\3 ais,,\4 dis,\3 ais,\2 g,\2 ais,\2 
+          ais,\2 ais,\2 ais,\2 ais,\2 dis,\3 ais,,\4
+
   | dis,4.\3 ~dis,8\3 d,\3 dis,\3 ais,4.\2 ~ais,8\2 dis,\3 ais,,\4   
   | g,,4. b,,8 c, d,\3 c,4. e,,8 f,, fis,, 
   | g,,4. b,,8 c, d,\3 d,2.\3                                       \break
