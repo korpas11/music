@@ -67,10 +67,8 @@ melody = \absolute
   | d,4.\3 a,,\4 d,\3 a,\2                                          \break
   | dis,8\3 ais,,\4 dis,\3 ais,\2 g,\2 ais,\2 
           ais,\2 ais,\2 ais,\2 ais,\2 dis,\3 ais,,\4
-
-  | dis,4.\3 ~dis,8\3 d,\3 dis,\3 ais,4.\2 ~ais,8\2 dis,\3 ais,,\4   
-  | g,,4. b,,8 c, d,\3 c,4. e,,8 f,, fis,, 
-  | g,,4. b,,8 c, d,\3 d,2.\3                                       \break
+  | g,,4. b,,8 c, d,\3 c, c, c, e,, f,, fis,,
+  | g,, g,, g,, b,, c, d,\3 d,2.\3
   \bar "||" 
 }
 <<
