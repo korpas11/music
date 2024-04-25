@@ -39,7 +39,7 @@ melody = \absolute
   b,, b,, r f,, fis,, fis,, r ais,,
   b,, b,, r f,, fis,, fis,, b,, a,,
   \break
-  g,, g,, r d,\3 g,\2 g,\2 r cis,
+  g,, g,, r d,\3 g,\2 g,\2 r d,
   fis, fis, r cis, fis,, fis,, a,, ais,,
   b,, b,, r f,, fis,, fis,, r ais,,
   b,, b,, fis,, fis,, a,, a,, ais,,4
