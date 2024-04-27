@@ -154,7 +154,7 @@ melody = \relative
   d1\3
 }
 <<
-  \version "2.22.2"
+  \version "2.24.3"
   \new ChordNames {
     \set chordChanges = ##t
     \harmonies
@@ -164,6 +164,7 @@ melody = \relative
   }
   {
     \clef "bass_8"
+    \tempo \markup { \rhythm { 8[ 8] } = \rhythm { \tuplet 3/2 { 4 8 } } }
     \melody
   }
   \new TabStaff \with {
