@@ -171,6 +171,7 @@ melody = \relative
     stringTunings = #bass-tuning
   }
   {
+    \clef moderntab
     \melody
   }
 >>
