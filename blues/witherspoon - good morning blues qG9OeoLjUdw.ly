@@ -31,42 +31,49 @@ melody = \relative
 {
   \key es \major
 
+  %1
   c,2 g'4.\2 b8(
   c2) g4\2 \tuplet 3/2 { r8 ges( g\2) }
   c,2  c'4 b8 g\2
   c,4 \tuplet 3/2 { r8 es\3 g\2 } c4. g8\2
   \break
 
+  %5
   f2 c4. g'8\2
   c,2 as'4. as8
   g4.\2 d8\3 es4\3 \tuplet 3/2 { r8 d\3 as'\2 }
-  g2\2 d8\3 b \tuplet 3/2 { g8 b g'\2 }
+  g4.\2 d8\3 b4 \tuplet 3/2 { g8 b g'\2 }
   \break
 
+  %9
   c,2 g'4.\2 b8(
-  c2) b8 g\2 \tuplet 3/2 { g8\2 es\3 b }
+  c2) b8 as\2 \tuplet 3/2 { g8\2 es\3 b }
   c2 g'4.\2 d8\3
   c2 b4 bes
   \break
 
+  %13
   es4\3 \tuplet 3/2 { r8 g\2 bes\2 } c4 \tuplet 3/2 { r8 b c~ }
   \tuplet 3/2 { c8 d,8\3 as'8\2 }  as4\2 d,8\3 g4\2 d8\3
   c2 g'2\2
-  c4 b bes \tuplet 3/2 { f8 d\3 bes' }
+  c4 b bes \tuplet 3/2 { f8 bes,\3 bes' }
   \break
 
+  %17
   es,4\3 g\2 bes\2 g\2
   as4.\2 g8\2 f4 e
   es2\3 bes2\4
   es2\3 bes'4\2 a\2
   \break
 
+  %21
   as2\2 es2\3
   as2\2 ges4\3 \tuplet 3/2 { r8 f\3 d\3 }
   es2\3 bes4.\4 bes'8\2
   es,2\3 g4\2 ges
   \break
 
+  %25
   f2 bes,4. g'8
   f2 bes
   es,4\3 \tuplet 3/2 { r8 g\2 bes\2 } as4\2 \tuplet 3/2 { r8 a\2 bes\2 } 
@@ -76,21 +83,21 @@ melody = \relative
 
 
 
-  %1
+  %29
   es4\3 bes'\2 g8\2 f\3 \tuplet 3/2 { es8\3 g\2 bes\2 }
   as4\2 es\3 bes'\2 es,8\3 bes'\2
   bes4\2 bes\2 as\2 as\2
   g\2 f\3 es\3 g\2
   \break
 
-  %5
+  %33
   as\2 c,\3 es\3 f\2
   as\2 as\2 \glissando bes\2 c
   bes\2 bes\2 as\2 bes8\2 as\2
   g4\2 d8\3 b\4 c\4 es\3 \tuplet 3/2 { g8\2 c g\2 }
   \break
 
-  %9
+  %37
   f4 f bes, bes
   f' g\2  as\2  bes\2
   es,\3 g8\2 es\3 as\2 es\3 a\2 es\3
@@ -99,7 +106,7 @@ melody = \relative
   \bar "||"
   \break
 
-  %13
+  %41
   es4 des bes\2 es,8\3 es'
   as,4\2 as\2 as\2 a8\2 bes\2
   es,4\3 bes'\2 es\1 d8 f
@@ -107,7 +114,7 @@ melody = \relative
 
   \break
 
-  %17
+  %45
   as4\2 c,\3 es\3 f\2
   as4\2 bes\2 c b8\2 bes\2
   es,4\3 g\2 c bes\2
@@ -115,7 +122,7 @@ melody = \relative
 
   \break
 
-  %21
+  %49
   f4 as c \tuplet 3/2 {f,8 c' b}
   bes4 as f bes, 
   es g8 es as es a es
@@ -124,9 +131,9 @@ melody = \relative
   \bar "||"
   \break
 
-  %25
+  %53
   es\3 g\2 bes\2 a\2
-  as\2 as\2 f\3 e\3
+  as\2 as\2 ges\3 f\3
   es\3 es\3 bes\4 bes\4
   es\3 bes'\2 g\2 es\3
 
