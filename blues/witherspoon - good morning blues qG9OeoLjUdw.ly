@@ -40,14 +40,14 @@ melody = \relative
 
   %5
   f2 c4. g'8\2
-  c,2 as'4. as8
+  f2 as4. as8
   g4.\2 d8\3 es4\3 \tuplet 3/2 { r8 d\3 as'\2 }
   g4.\2 d8\3 b4 \tuplet 3/2 { g8 b g'\2 }
   \break
 
   %9
   c,2 g'4.\2 b8(
-  c2) b8 as\2 \tuplet 3/2 { g8\2 es\3 b }
+  c2) \tuplet 3/2 { b8 as4\2 } \tuplet 3/2 { g8\2 es\3 b }
   c2 g'4.\2 d8\3
   c2 b4 bes
   \break
