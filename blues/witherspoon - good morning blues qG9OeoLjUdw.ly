@@ -55,9 +55,9 @@ melody = \relative
   \break
 
   es,4\3 g\2 bes\2 g\2
-  r1
-  r1
-  r1
+  as4.\2 g8\2 f4 e
+  es2\3 bes2\4
+  es2\3 bes'4\2 a\2
   \break
 
   r1
