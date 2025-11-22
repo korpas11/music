@@ -3,7 +3,7 @@
 \header {
   title = "Good Morning Blues"
   subtitle = "Jimmy Witherspoon"
-  composer = "composer / bass player / etc"
+  composer = "Count Basie, Eddie Durham; Jimmy Rushing"
 }
 
 \paper {
