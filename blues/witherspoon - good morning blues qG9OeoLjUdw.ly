@@ -21,6 +21,7 @@
 harmonies = \chordmode {
  s1    s1    s1    s1      s1    s1    s1    s1      s1    s1    s1    s1      
  s1    s1    s1    s1      s1    s1    s1    s1      s1    s1    s1    s1      
+ s1    s1    s1    s1
  es1:7 as1:7 es1:7 es1:7   as1:7 as1:7 es1:7 g2 c2   f1:7 bes1:7 es2:7 as2:7 bes1:7
  es1:7 as1:7 es1:7 es1:7   as1:7 as1:7 es1:7 g2 c2   f1:7 bes1:7 es2:7 as2:7 bes1:7
  es1:7 as1:7 es1:7 es1:7   as1:7 as1:7 es1:7 g2 c2   f1:7 f1:7   es2:7 as2:7 bes1:7
@@ -60,11 +61,19 @@ melody = \relative
   es2\3 bes'4\2 a\2
   \break
 
-  r1
-  r1
-  r1
-  r1
+  as2\2 es2\3
+  as2\2 ges4\3 \tuplet 3/2 { r8 f\3 d\3 }
+  es2\3 bes4.\4 bes'8\2
+  es,2\3 g4\2 ges
   \break
+
+  f2 bes,4. g'8
+  f2 bes
+  es,4\3 \tuplet 3/2 { r8 g\2 bes\2 } as4\2 \tuplet 3/2 { r8 a\2 bes\2 } 
+  es,2\3 bes4\4 bes\4
+  \break
+
+
 
 
   %1
