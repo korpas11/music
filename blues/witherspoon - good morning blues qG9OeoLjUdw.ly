@@ -19,12 +19,26 @@
 }
 
 harmonies = \chordmode {
- s1    s1    s1    s1      s1    s1    s1    s1      s1    s1    s1    s1      
- s1    s1    s1    s1      s1    s1    s1    s1      s1    s1    s1    s1      
- s1    s1    s1    s1
- es1:7 as1:7 es1:7 es1:7   as1:7 as1:7 es1:7 g2 c2   f1:7 bes1:7 es2:7 as2:7 bes1:7
- es1:7 as1:7 es1:7 es1:7   as1:7 as1:7 es1:7 g2 c2   f1:7 bes1:7 es2:7 as2:7 bes1:7
- es1:7 as1:7 es1:7 es1:7   as1:7 as1:7 es1:7 g2 c2   f1:7 f1:7   es2:7 as2:7 bes1:7
+ c2:m g2:7   c2:m g2:7   c1:m       c1:m
+ f1:m        f2:m as2:7  g1:7       g1:7
+ c1:m        c2.:m g4:7  c2:m g2:7  c1:m
+ es2:7 c2:m  as2:7 g2:7  c1:m       c1:m
+
+ es1:7   as1:7    es1:7        es1:7
+ as1:7   as1:7    es1:7        es1:7
+ f1:m7   bes1:7   es2:7 as2:7  es2:7 bes2:7
+
+ es1:7   as1:7    es1:7        es1:7
+ as1:7   as1:7    es1:7        g2:m c2:7
+ f1:m7   bes1:7   es2:7 as2:7  bes1:7
+
+ es1:7   as1:7    es1:7        es1:7
+ as1:7   as1:7    es1:7        g2:m c2:7
+ f1:m7   bes1:7   es2:7 as2:7  bes1:7
+
+ es1:7   as1:7    es1:7        es1:7
+ as1:7   as1:7    es1:7        g2:m c2:7
+ f1:m7   f1:7     es2:7 as2:7  bes4.:7 es8:7
 }
 
 melody = \relative 
@@ -47,7 +61,7 @@ melody = \relative
 
   %9
   c,2 g'4.\2 b8(
-  c2) \tuplet 3/2 { b8 as4\2 } \tuplet 3/2 { g8\2 es\3 b }
+  c2) \tuplet 3/2 { b8 as4\2 } \tuplet 3/2 { g8\2 d\3 b }
   c2 g'4.\2 d8\3
   c2 b4 bes
   \break
@@ -57,6 +71,8 @@ melody = \relative
   \tuplet 3/2 { c8 d,8\3 as'8\2 }  as4\2 d,8\3 g4\2 d8\3
   c2 g'2\2
   c4 b bes \tuplet 3/2 { f8 bes,\3 bes' }
+
+  \bar "||"
   \break
 
   %17
@@ -78,10 +94,9 @@ melody = \relative
   f2 bes
   es,4\3 \tuplet 3/2 { r8 g\2 bes\2 } as4\2 \tuplet 3/2 { r8 a\2 bes\2 } 
   es,2\3 bes4\4 bes\4
+
+  \bar "||"
   \break
-
-
-
 
   %29
   es4\3 bes'\2 g8\2 f\3 \tuplet 3/2 { es8\3 g\2 bes\2 }
@@ -159,7 +174,7 @@ melody = \relative
 <<
   \version "2.24.3"
   \new ChordNames {
-    \set chordChanges = ##t
+   %\set chordChanges = ##t
     \harmonies
   }
   \new Voice \with {
